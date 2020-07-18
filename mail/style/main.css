@@ -1,0 +1,39 @@
+body {
+padding: 0;
+width: 70%;
+margin: auto;
+}
+table {
+	width: 80%;
+	text-align: center;
+	font-family: 'Montserrat Alternates', sans-serif;
+	list-style-position: inside;
+	margin: auto;
+}
+tr {
+	font-weight: 400;
+	font-size: 11px;
+
+}
+img {
+	height: 30%;
+}
+.head-table{
+	font-size: 14px;
+	font-weight: 900;
+
+}
+.text {
+	font-size: 12px;
+}
+li {
+    list-style: none; /* Убираем исходные маркеры */
+    font-size: 12px;
+    }
+
+li:before {
+    content: "\27A3"; /* Добавляем в качестве маркера символ */
+   }
+.none {
+   	height: 17px;
+   }
